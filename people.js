@@ -1,13 +1,15 @@
-const myNames = require("./names");
-console.log(myNames);
+const fullName = require("./names");
+console.log(fullName);
 
-const myHobbies = require("./hobbies");
-console.log(myHobbies);
+const allHobbies = require("./hobbies");
+console.log(allHobbies);
 
 function manHobbies() {
+
+ 
     return {
-        myNames: myNames,
-        myHobbies: myHobbies
+        fullName: fullName,
+        allHobbies: allHobbies
     };
 }
 
