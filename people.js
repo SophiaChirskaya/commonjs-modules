@@ -13,6 +13,6 @@ function manHobbies() {
     };
 }
 
-console.log(manHobbies);
+console.log(manHobbies());
 
 
