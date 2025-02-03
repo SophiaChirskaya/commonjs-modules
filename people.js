@@ -1,18 +1,21 @@
 const fullName = require("./names");
-console.log(fullName);
+
 
 const allHobbies = require("./hobbies");
-console.log(allHobbies);
 
-function manHobbies() {
+
+function nameHobbies() {
+
+    const personName = fullName("Anna", "Nicoli");
+    const personHobbies = allHobbies("jogging", "reading", "skating");
 
  
     return {
-        fullName: fullName,
-        allHobbies: allHobbies
+        fullName: personName.firstName + " " + personName.lastName,
+        allHobbies: personHobbies[0] + ", " + personHobbies[1] + ", " + personHobbies[2]
     };
 }
 
-console.log(manHobbies());
+console.log(nameHobbies());
 
 

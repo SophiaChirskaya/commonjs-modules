@@ -6,7 +6,7 @@ function fullName(firstName, lastName){
     };
 }
 
-console.log(fullName("Anna", "Slongo"));
+
 
 
 
